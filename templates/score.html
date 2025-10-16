@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Score Card</h2>
+        <table border = 1>
+        {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+               {% if value>50 %}
+               <td>Your result is pass!</td>
+               {% else %}
+               <td>Your result is fail</td>
+               {% endif %}
+            </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>
