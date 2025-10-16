@@ -5,3 +5,5 @@ The Jinja2 template engine uses the following delimiters for escaping from HTML.
 {{ ... }} for Expressions to print to the template output
 {# ... #} for Comments not included in the template output
 # ... ## for Line Statements
+
+A web application often requires a static file such as a javascript file or a CSS file supporting the display of a web page.
